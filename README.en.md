@@ -1,36 +1,12 @@
-# teacher-attendance-salary
+# FacultyFlow
 
-#### Description
-员工考勤与工资发放系统：Spring Boot 3.5 + Vue3 + MySQL 8.4 + RabbitMQ 高并发发薪 + Python 学生端（课程作业）
+Employee attendance and payroll platform: Spring Boot 3.5 + Vue 3 + MySQL 8.4 + RabbitMQ for high-concurrency payroll, with a Python analytics module.
 
-#### Software Architecture
-Software architecture description
+## Modules
 
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+| Module | Description |
+|---|---|
+| `backend/` | Spring Boot 3.5 attendance and payroll service |
+| `frontend/` | Vue 3 admin console |
+| `analytics/` | Python data analysis and cross-check scripts |
+| `pt.sql` | Database bootstrap script |

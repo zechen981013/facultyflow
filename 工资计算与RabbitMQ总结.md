@@ -47,7 +47,7 @@ employee.base_salary
           │
           └─ 应发 gross = 底薪 + 提成
 
-        （销售只按"底薪+提成"，不再做考勤扣款，规则见作业要求）
+        （销售只按"底薪+提成"，不再做考勤扣款，规则见需求要求）
 
 gross（应发工资）
    │
@@ -89,7 +89,7 @@ gross（应发工资）
 计算完成后写入 **`salary_record`** 表，一条记录一人一月，字段包括：底薪、考勤扣款、提成、应发、五险一金、个税、实发、**状态**（待发放→发放中→已发放）、发放时间。
 
 - 相关代码：`backend/.../service/SalaryService.java`（计算）、`service/TaxCalculator.java`（个税）、`controller/SalaryController.java`（接口）
-- 学生版（Python 交叉验证）：`student/salary_calc.py`，与 Java 计算结果完全一致
+- 交叉验证版（Python）：`analytics/salary_calc.py`，与 Java 计算结果完全一致
 
 ---
 
